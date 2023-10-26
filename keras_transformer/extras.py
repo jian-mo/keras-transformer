@@ -7,7 +7,7 @@ import math
 from tensorflow.keras import activations, regularizers
 # noinspection PyPep8Naming
 from tensorflow.keras import backend as K
-from tensorflow.keras.engine import Layer
+from  tensorflow.keras.layers import Layer, Add, Dropout
 from tensorflow.keras.layers import Embedding
 from tensorflow.keras.utils import get_custom_objects
 
