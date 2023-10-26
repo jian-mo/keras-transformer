@@ -7,9 +7,9 @@ import math
 from typing import Union, Callable, Optional
 
 from  tensorflow.keras.layers import Layer, Add, Dropout
-from  tensorflow.keras. import initializers, activations
+from  tensorflow.keras import initializers, activations
 # noinspection PyPep8Naming
-from  tensorflow.keras. import backend as K
+from  tensorflow.keras import backend as K
 from  tensorflow.keras.utils import get_custom_objects
 
 from keras_transformer.attention import MultiHeadSelfAttention
